@@ -30,7 +30,7 @@ Steps:-
     ### How to run the nodes:-
 -	The package contains a launch file which initiated the Dynamic Reconfigure Node along with service node and the type the following commands in separate terminals to initiate the Service Client.	
 
-        roslaunch delivery_service 
+        roslaunch delivery_service feed_delivery.launch
         rosrun delivery_service client.py 7
 
     Where 7 is feed quantity specified feed quantity.
